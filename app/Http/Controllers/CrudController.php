@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\OfferRequest;
 use App\Models\Offer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -29,17 +30,17 @@ class CrudController extends Controller
         return view('offers/create');
     }
 
-    public function Store(Request $request) {
+    public function Store(OfferRequest $request) {
         //return $request;
 
-        $rules = $this -> getRules();
-        $messages = $this -> getMessages();
-        $validator = Validator::make($request->all(),$rules,$messages);
-
-        if($validator -> fails()) {
-            //return $validator -> errors();
-            return redirect() -> back()->withErrors(($validator)) ->withInputs($request->all());
-        }
+//        $rules = $this -> getRules();
+//        $messages = $this -> getMessages();
+//        $validator = Validator::make($request->all(),$rules,$messages);
+//
+//        if($validator -> fails()) {
+//            //return $validator -> errors();
+//            return redirect() -> back()->withErrors(($validator)) ->withInputs($request->all());
+//        }
 
         Offer::create([
             'name' => $request ->name,

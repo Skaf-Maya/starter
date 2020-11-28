@@ -21,5 +21,13 @@ return [
     'price required' => 'السعر مطلوب',
     'price numeric' => 'السغر يجب أن يكون رقمي',
     'details required' => 'التفاصيل مطلوبة',
+    'Add Your Offer' => 'أضف عرضك',
+    'Offer Name' => 'اسم العرض',
+    'Offer Price' => 'سعر العرض',
+    'Offer Details' => 'تفاصيل العرض',
+    'name' => 'الاسم',
+    'price' => 'السعر',
+    'details' => 'التفاصيل',
+    'Save Offer' => 'حفظ العرض',
 
 ];

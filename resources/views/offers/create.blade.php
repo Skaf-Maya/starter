@@ -98,7 +98,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Add Your Offer
+                   {{__('messages.Add Your Offer')}}
                 </div>
 
 
@@ -107,30 +107,30 @@
 {{--                    <input name="_token" value="{{csrf_token()}}}">--}}
 
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Offer Name</label>
-                        <input type="text" class="form-control" name="name" placeholder="name">
+                        <label for="exampleInputEmail1">{{__('messages.Offer Name')}}</label>
+                        <input type="text" class="form-control" name="name" placeholder="{{__('messages.name')}}">
                         @error('name')
                         <small class="form-text text-danger">{{$message}}</small>
                         @enderror
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Offer Price</label>
-                        <input type="text" class="form-control" name="price" placeholder="price">
+                        <label for="exampleInputPassword1">{{__('messages.Offer Price')}}</label>
+                        <input type="text" class="form-control" name="price" placeholder="{{__('messages.price')}}">
                         @error('price')
                         <small class="form-text text-danger">{{$message}}</small>
                         @enderror
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Offer Details</label>
-                        <input type="text" class="form-control" name="details" placeholder="details">
+                        <label for="exampleInputPassword1">{{__('messages.Offer Details')}}</label>
+                        <input type="text" class="form-control" name="details" placeholder="{{__('messages.details')}}">
                         @error('details')
                         <small class="form-text text-danger">{{$message}}</small>
                         @enderror
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Save Offer</button>
+                    <button type="submit" class="btn btn-primary">{{__('messages.Save Offer')}}</button>
                 </form>
 
                 <br>

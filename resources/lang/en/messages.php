@@ -21,7 +21,14 @@ return [
     'price required' => 'the price is required',
     'price numeric' => 'the price must be numeric',
     'details required' => 'the details is required',
-
+    'Add Your Offer' => 'Add Your Offer',
+    'Offer Name' => 'Offer Name',
+    'Offer Price' => 'Offer Price',
+    'Offer Details' => 'Offer Details',
+    'name' => 'name',
+    'price' => 'price',
+    'details' => 'details',
+    'Save Offer' => 'Save Offer',
 
 
 ];
