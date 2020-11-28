@@ -31,7 +31,7 @@ class Kernel extends ConsoleKernel
         //          ->hourly();
 
          $schedule->command('user:expire')
-                  ->everyMinute();
+                  ->everyMinute()->withoutOverlapping();
 
         $schedule->command('notify:email')
             ->everyMinute();

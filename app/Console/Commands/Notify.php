@@ -45,4 +45,5 @@ class Notify extends Command
            Mail::To($email) -> send(new NotifyEmail($data));
         }
     }
+
 }

@@ -15,5 +15,11 @@ return [
 
     "Hello" => 'مرحبا',
     "Welcome" => 'اهلا بكم',
+    'name required' => 'الاسم مطلوب',
+    'name max' => 'الاسم يجب أن يكون 100',
+    'name unique' => 'الاسم يجب أن يكون فريد منه نوعه',
+    'price required' => 'السعر مطلوب',
+    'price numeric' => 'السغر يجب أن يكون رقمي',
+    'details required' => 'التفاصيل مطلوبة',
 
 ];
