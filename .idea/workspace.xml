@@ -23,7 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe4ed19-7923-49c4-8bf9-2d86d338eb5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/offers/all.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/OfferRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/OfferRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Offer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Offer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/offers/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/offers/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,18 +177,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\php\www\starter\app\Model" />
-      <recent name="C:\xampp\php\www\starter\resources\views" />
-      <recent name="C:\xampp\php\www\starter\app\Http\Controllers\Admin" />
-      <recent name="C:\xampp\php\www\starter\app\Http\Controllers\Front" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\php\www\starter\resources\views\offers" />
       <recent name="C:\xampp\php\www\starter\resources\views\emails" />
       <recent name="C:\xampp\php\www\starter\resources\views\includes" />
       <recent name="C:\xampp\php\www\starter\resources\views\layouts" />
       <recent name="C:\xampp\php\www\starter\resources\lang\en" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\php\www\starter\app\Model" />
+      <recent name="C:\xampp\php\www\starter\resources\views" />
+      <recent name="C:\xampp\php\www\starter\app\Http\Controllers\Admin" />
+      <recent name="C:\xampp\php\www\starter\app\Http\Controllers\Front" />
     </key>
   </component>
   <component name="RunManager">
@@ -226,7 +234,10 @@
       <workItem from="1606368552468" duration="5816000" />
       <workItem from="1606549938572" duration="8920000" />
       <workItem from="1606564440120" duration="2643000" />
-      <workItem from="1606570613674" duration="4136000" />
+      <workItem from="1606570613674" duration="4515000" />
+      <workItem from="1606596284147" duration="1342000" />
+      <workItem from="1606659003589" duration="4705000" />
+      <workItem from="1606680996117" duration="1911000" />
     </task>
     <servers />
   </component>

@@ -43,30 +43,38 @@ class CrudController extends Controller
 //        }
 
         Offer::create([
-            'name' => $request ->name,
+            'name_ar' => $request ->name_ar,
+            'name_en' => $request ->name_en,
+            'details_ar' => $request ->details_ar,
+            'details_en' => $request ->details_en,
             'price' => $request ->price,
-            'details' => $request ->details,
+
         ]);
         //return 'saved successfully';
         return redirect() -> back() -> with(['success' => 'the offer is added successfully']);
     }
 
-    protected function getRules() {
-        return $rules = [
-            'name' => 'required|max:100|unique:offers,name',
-            'price' => 'required|numeric',
-            'details' => 'required'
-        ];
-    }
+//    protected function getRules() {
+//        return $rules = [
+//            'name' => 'required|max:100|unique:offers,name',
+//            'price' => 'required|numeric',
+//            'details' => 'required'
+//        ];
+//    }
 
-    protected function getMessages() {
-        return $messages =  [
-            'name.required' => __('messages.name required'),
-            'name.max' => __('messages.name max'),
-            'name.unique' => __('messages.name unique'),
-            'price.required' => __('messages.price required'),
-            'price.numeric' => __('messages.price numeric'),
-            'details.required' => __('messages.details required')
-        ];
-    }
+//    protected function getMessages() {
+//        return $messages =  [
+//            'name.required' => __('messages.name required'),
+//            'name.max' => __('messages.name max'),
+//            'name.unique' => __('messages.name unique'),
+//            'price.required' => __('messages.price required'),
+//            'price.numeric' => __('messages.price numeric'),
+//            'details.required' => __('messages.details required')
+//        ];
+//    }
+
+    public function getAllOffers() {
+        $offers = Offer::select('id','name', 'price', 'details') -> get();
+        return view('offers.all',compact('offers'));
+   }
 }
